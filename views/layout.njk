@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CYF Language Exchange</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Texturina&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/styles/styles.css" />
+  </head>
+  <body class="{{ body_class }}">
+    {% include "./partials/_header.njk" %}  
+    <main id="main">
+      {% block content %} {% endblock %}
+    </main>
+  </body>
+  <script>
+    const date = new Date();
+    
+    const monthName = date.toLocaleString("en", {month: "long"});
+    
+    const monthlyUpdate = `Events coming up in ${monthName}`;
+    
+    document.querySelector('.events-header').innerHTML = monthlyUpdate;
+    </script>
+</html>
