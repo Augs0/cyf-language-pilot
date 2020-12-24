@@ -14,5 +14,5 @@
     "devstart": "nodemon -e njk,html,css server.js"
   },
   "author": "August",
-  "license": "ISC"
+  "license": "MIT"
 }
