@@ -11,7 +11,8 @@
     "nodemon": "^2.0.6"
   },
   "scripts": {
-    "devstart": "nodemon -e njk,html,css server.js"
+    "devstart": "nodemon -e njk,html,css server.js",
+    "build": "server.js"
   },
   "author": "August",
   "license": "MIT"
