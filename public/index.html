@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CYF Language Exchange</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Texturina&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body class="">
+    <header>
+    <h1>CYF Language Exchange</h1>
+    <nav class="navigation">
+      <ul>
+        <li  class="active"><a href="/">Home</a></li>
+        <li ><a href="/languagepartners">Language Partners</a></li>
+        <li ><a href="/resources">Resources</a></li>
+      </ul>
+    </nav>
+  
+</header>  
+    <main id="main">
+      
+    <section id="about">
+        <h2>About CYF's language exchange</h2>
+        <p>The pilot programme of the language exchange at CodeYourFuture was started in late March 2020 as a way to bring everyone together as the pandemic began to take hold. Originally, we aimed to organize independent language exchanges, but this grew to offering ad hoc English grammar sessions, drop in advice sessions for language learners, English conversation,  as well as group sessions for English and Spanish.</p>
+        <p>Things have come a long way since the programme began, but we know there's much for us to do. In the future, we want to offer taster sessions in the languages in our community, offer writing classes for English, get independent language exchanges in motion, and organize regular practice sessions for our students and mentors. We welcome all feedback and anyone is welcome to get involved! Currently the team behind this project is quite small!</p>
+        <p>You can join us on Slack in the channel cyf-language-exchange-pilot</p>
+    </section>
+    <section id="events">
+        <h2 class="events-header"></h2>
+    </section>
+    <section id="languages">
+        <h2>Languages spoken by our students and volunteers</h2>
+        <!-- Make this dropdown? -->
+        <!-- Add chatroom either above or below -->
+        <ul class="language-grid">
+            <li>English</li>
+            <li>Spanish</li>
+            <li>Italian</li>
+            <li>Afrikaans</li>
+            <li>Arabic</li>
+            <li>Hungarian</li>
+            <li>Farsi</li>
+            <li>Romanian</li>
+            <li>Hindi</li>
+            <li>Japanese</li>
+            <li>Urdu</li>
+            <li>Kurdish</li>
+            <li>German</li>
+            <li>Turkish</li>
+            <li>Somali</li>
+            <li>French</li>
+            <li>Korean</li>
+            <li>Romanian</li>
+            <li>Bengali</li>
+            <li>Greek</li>
+            <li>Portuguese</li>
+            <li>Swedish</li>
+            <li>Xitsonga</li>
+            <li>Malay</li>
+            <li>Gujarati</li>
+            <li>Scottish Gaelic</li>
+            <li>Amharic</li>
+            <li>Telegu</li>
+            <li>Russian</li>
+            <li>Hokkien</li>
+            <li>Xhosa</li>
+            <li>Punjabi</li>
+            <li>Tamil</li>
+            <li>Swahili</li>
+            <li>Dari</li>
+            <li>Tswana</li>
+            <li>Mandarin</li>
+        </ul>
+    </section>
+    
+    </main>
+  </body>
+  <script>
+    const date = new Date();
+    
+    const monthName = date.toLocaleString("en", {month: "long"});
+    
+    const monthlyUpdate = `Events coming up in ${monthName}`;
+    
+    document.querySelector('.events-header').innerHTML = monthlyUpdate;
+    </script>
+</html>

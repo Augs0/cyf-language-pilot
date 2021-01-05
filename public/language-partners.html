@@ -8,10 +8,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Texturina&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./styles.css" />
   </head>
-  <body class="{{ body_class }}">
-    {% include "./partials/_header.njk" %}  
+  <body class="">
+    <header>
+    <h1>CYF Language Exchange</h1>
+    <nav class="navigation">
+      <ul>
+        <li ><a href="/">Home</a></li>
+        <li  class="active"><a href="/languagepartners">Language Partners</a></li>
+        <li ><a href="/resources">Resources</a></li>
+      </ul>
+    </nav>
+  
+</header>  
     <main id="main">
-      {% block content %} {% endblock %}
+      
+    <h2>Language Partners</h2>
+    <!-- Example of idea for language partner look up -->
+    <div class="partners-grid">
+        <div class="learner">
+            <p>Name</p>
+            <p>Languages spoken</p>
+            <p>Looking to learn</p>
+            <p>Timezone</p>
+            <p>Availability</p>
+            <p>Conversation topics</p>
+        </div>
+    </div>
+    
     </main>
   </body>
   <script>

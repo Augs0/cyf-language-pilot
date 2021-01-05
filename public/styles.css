@@ -66,7 +66,7 @@ header{
     font-family: 'Nunito', sans-serif;
 }
 
-.language-grid{
+.language-grid, .partners-grid{
     display:flex;
     width:100%;
     flex-wrap:wrap;
@@ -77,6 +77,13 @@ header{
     border:2px solid var(--cyf-red);
     width:auto;
     margin:5px;
+    text-align:center;
+}
+
+/*  Partners  */
+.learner{
+    border:6px double white;
+    padding:10px;
     text-align:center;
 }
 

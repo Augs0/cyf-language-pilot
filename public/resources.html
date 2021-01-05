@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CYF Language Exchange</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Texturina&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body class="">
+    <header>
+    <h1>CYF Language Exchange</h1>
+    <nav class="navigation">
+      <ul>
+        <li ><a href="/">Home</a></li>
+        <li ><a href="/languagepartners">Language Partners</a></li>
+        <li  class="active"><a href="/resources">Resources</a></li>
+      </ul>
+    </nav>
+  
+</header>  
+    <main id="main">
+      
+    <h2>Resources</h2>
+    <h3>English</h3>
+    <h4>Writing</h4>
+   <ul class="exception-list">
+       <li>Write a diary or short pieces of writing and get it corrected. There are sites like Lang8 (https://lang-8.com/) where people will correct your writing with notes and you can also help others to do the same.</li>
+       <li>Work through the British Council’s writing prompts (https://learnenglish.britishcouncil.org/skills/writing)</li>
+       <li>Cambridge English has an online tool which can automatically grade your writing against the CEFR (Common European Framework of Reference), which is what most language learners are tested against in Europe. I would love to know how you guys do with this as I haven’t used it myself yet, but the idea sounds amazing!
+    </li>
+   </ul>
+   <h4>Speaking</h4>
+   <ul class="exception-list">
+    <li>Find a language partner at CYF or on sites like lang-8, Tandem, or italki. On sites like italki, you may need to pay a small fee to practice or be taught.</li>
+    <li>Record yourself speaking and listen back for any errors. Make a note of this and try to correct each one as you practice.</li>
+    <li>Talk About English (http://www.bbc.co.uk/worldservice/learningenglish/webcast/tae_betterspeaking_archive.shtml)</li>
+    <li>Interactive videos from the British Council (https://learnenglish.britishcouncil.org/skills/speaking)</li>
+    <li>English with James (American English) (https://www.youtube.com/playlist?list=PL1MxVBsQo85r0c30_dRS54444vIKWrCju)</li>
+    <li>KoreanBilly – I like Billy as he is an actual English learner who became very fluent. Some of his videos are in Korean, but he has plenty in English :) (https://www.youtube.com/playlist?list=PLR7bIQ-wON7PM928HXdYBxkZubAdt3UHw)</li>
+   </ul>
+   <h4>Listening</h4>
+   <ul class="exception-list">
+    <li>Find podcasts about topics you enjoy. For example, I listen to lots of history podcasts and podcasts about languages. I recommend the app Overcast for keeping your podcasts on ^o^ The only downside is that most of the time these will be at regular speed of speech, so may be harder to follow if you’re still learning. You can also try audiobooks, many of which are available for free on YouTube.</li>
+    <li>Make use of Netflix! Watch shows in English and/or with English subtitles. There are now even extensions in Chrome to help language learners (https://chrome.google.com/webstore/detail/nflxmultisubs-netflix-mul/pjhnilfooknlkdonmjnleaomamfehkli/related)</li>
+    <li>The mental health charity, Mind, released some ‘Sleep Stories’ to help people who struggle with sleeping fall asleep. As such, the stories are spoken very slowly but are actually quite interesting! Here’s one of my favourites: https://www.youtube.com/watch?v=O4x9ssJ0jfM</li>
+    <li>This site has lots of listening practice with quizzes. It’s American English and is quite filled with ads, so be careful when clicking around the page (https://www.esl-lab.com/intermediate/)</li>
+    <li>English with Elliott (British English). Elliott has lots of videos, ranging from pronunciation to stories to idioms (https://www.youtube.com/channel/UCBHtnQGUChkwG1eyWL5EA9g/playlists)</li>
+   </ul>
+   <h4>Reading</h4>
+   <ul class="exception-list">
+    <li>Make use of your local library to read books in English (Yep, even during lockdown! They are allowing books to be borrowed online~)</li>
+    <li>Reading with comprehension tests (https://www.ereadingworksheets.com/e-reading-worksheets/online-reading-tests/)</li>
+    <li>Reading comprehension with the British Council (http://learnenglishteens.britishcouncil.org/skills/reading/beginner-a1-reading)</li>
+    <li>Rong-chang: reading with the option to also hear texts (https://www.rong-chang.com/nse/)</li>
+    <li>Lots of articles to read here (https://wordpandit.com/reading-suggestions-tips/)</li>
+   </ul>
+    <h4>Grammar</h4>
+    <ul class="exception-list">
+        <li>British Council reference (https://learnenglish.britishcouncil.org/english-grammar-reference)</li>
+        <li>EF reference (https://www.ef.co.uk/english-resources/english-grammar/)</li>
+        <li>mmmEnglish with Emma (Australian English). Emma is Australian but offers general English grammar and speaking lessons (https://www.youtube.com/watch?v=XzkbcWh8s4w&list=PLD_5T89Ssbn2PrkhxV8Lh6ngEjlhqRJ-p&index=12&t=0s)</li>
+        <li>To .Fluency (British Northern English) videos on grammar (https://www.youtube.com/watch?v=Sec-d3-iEKg&list=PLZOJurmtexYp6W4takHofiLVhP666XRFW)</li>
+        <li>List of common collocations (words that naturally go together in English) https://7esl.com/collocations/#Verb_Collocations_List</li>
+    </ul>
+    <h4>Dictionaries</h4>
+    <ul class="exception-list">
+        <li>Cambridge (https://dictionary.cambridge.org/dictionary/)</li>
+    </ul>
+    
+    </main>
+  </body>
+  <script>
+    const date = new Date();
+    
+    const monthName = date.toLocaleString("en", {month: "long"});
+    
+    const monthlyUpdate = `Events coming up in ${monthName}`;
+    
+    document.querySelector('.events-header').innerHTML = monthlyUpdate;
+    </script>
+</html>
