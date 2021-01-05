@@ -20,5 +20,3 @@ exports.default = gulp.series(
     'css',
     'nunjucks'
 );
-// gulp.task('default', ['css', 'nunjucks'], function() {
-// });

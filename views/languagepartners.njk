@@ -2,16 +2,17 @@
 {% extends
     "layout.njk" %} 
     {% block content %}
-    <h2>Language Partners</h2>
+    <h2 class="lead-title">Language Partners</h2>
     <!-- Example of idea for language partner look up -->
     <div class="partners-grid">
+        <!-- This data will probably be mapped over from a database / json data -->
         <div class="learner">
-            <p>Name</p>
-            <p>Languages spoken</p>
-            <p>Looking to learn</p>
-            <p>Timezone</p>
-            <p>Availability</p>
-            <p>Conversation topics</p>
+            <p>Default learner</p>
+            <p>I speak: Spanish, French, English</p>
+            <p>I want to practice: English</p>
+            <p>Timezone: UK</p>
+            <p>Availability: I prefer weekday evenings</p>
+            <p>Conversation topics: cinema, sport, cooking</p>
         </div>
     </div>
     {% endblock content %}

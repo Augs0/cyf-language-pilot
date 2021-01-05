@@ -14,6 +14,7 @@ body{
 
 h1{
     margin:0;
+    font-size:3rem;
 }
 
 h2, h3, h4, h5, h6{
@@ -64,6 +65,10 @@ header{
     padding:40px;
     color:ghostwhite;
     font-family: 'Nunito', sans-serif;
+}
+
+.lead-title{
+    font-size:2rem;
 }
 
 .language-grid, .partners-grid{
