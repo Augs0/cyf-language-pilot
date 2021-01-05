@@ -14,7 +14,7 @@
   },
   "scripts": {
     "devstart": "nodemon -e njk,html,css server.js",
-    "build": "gulp nunjucks"
+    "build": "gulp"
   },
   "author": "August",
   "license": "MIT"
