@@ -6,7 +6,7 @@ router.get('/', async function (req, res, next) {
         title: 'Find a language partner'
     }
 
-    res.render('language-partners.njk', data)
+    res.render('languagepartners.njk', data)
 })
 
 module.exports = router
